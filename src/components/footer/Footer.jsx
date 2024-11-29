@@ -8,8 +8,10 @@ import s from './footer.module.scss'
 export default function Footer() {
   return (
     <footer>
+      {/* Sessão onde fica o rodapé da página */}
       <section className={s.contatosFooter}>
         <p>4002-8922</p>
+        {/* Este é o NAV - onde utilizamos para colocar o link dos sites de redes sociais */}
         <nav>
           <a href=""><img src={logoFacebook} alt="" /></a>
           <a href=""><img src={logoTwitter} alt="" /></a>
